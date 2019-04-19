@@ -1,4 +1,22 @@
-.has-bg-img { 
+/* .has-bg-img { 
     background: url("/assets/pictures/background.jpg")center center; 
     background-size:cover; 
-}
+} */
+
+
+/* .img-responsive {
+    display: block; 
+    max-width: 100%;
+    height: auto;
+ }  */
+
+ /* .bg-img {
+     background-image: url("assets/pictures/background.jpg")
+ };
+ */
+ section.hero.is-bold{
+     background-image: url("../pictures/background.jpg");
+     background-size: cover;
+     background-position: center center;
+     
+ }
