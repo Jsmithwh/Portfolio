@@ -6,10 +6,37 @@
  }
 
  .card {
-     background-color: palevioletred;
+     margin-left: 30%;
+     margin-right: 30%;
  }
  .card.is-wide {
     width: 550px;
   }
   
-  
+  .container {
+    position: sticky;
+    top: 0;
+  }
+
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+
+/* css outline found at https://codepen.io/JGallardo/pen/lJoyk */
+
+nav div {
+    color: white;
+    font-size: 2rem;
+    line-height: 60px;
+    position: sticky;
+    top: 0;
+    left: 2%;
+    visibility: hidden;
+}
+.visible-title {
+    visibility: visible;
+}
+
